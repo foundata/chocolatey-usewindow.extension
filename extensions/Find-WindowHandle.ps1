@@ -48,7 +48,7 @@
         $Handle = [IntPtr]::new($Matches[1])
     } else {
         # Find handle in existing processes.
-        $MatchingWindows = [FocusWindowHelpers]::GetAllExistingWindows() | ? { $_.Key -match $Query }
+        $MatchingWindows = [UswWindowHelpers]::GetAllExistingWindows() | ? { $_.Key -match $Query }
 
         if (-not $MatchingWindows) {
             return [IntPtr]::Zero
@@ -59,7 +59,7 @@
     }
 
     # Make sure the handle exists.
-    if ([FocusWindowHelpers]::WindowExists($Handle)) {
+    if ([UswWindowHelpers]::WindowExists($Handle)) {
         return $Handle
     } else {
         return [IntPtr]::Zero

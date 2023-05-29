@@ -4,7 +4,7 @@
     using System.Runtime.InteropServices;
     using System.Text;
 
-    public static class FocusWindowHelpers
+    public static class UswWindowHelpers
     {
         [DllImport("user32.dll")]
         [return: MarshalAs(UnmanagedType.Bool)]

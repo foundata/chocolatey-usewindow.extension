@@ -1,4 +1,4 @@
-﻿function Focus-Window {
+﻿function Use-Window {
     <#
     .SYNOPSIS
     Focuses the window having the given handle.
@@ -11,7 +11,7 @@
     .EXAMPLE
     Focus the first window having 'powershell' in its name.
 
-    Focus-Window powershell
+    Use-Window powershell
 
     #>
     param(
@@ -28,5 +28,5 @@
 
     $Handle = Find-WindowHandle $Query
 
-    [FocusWindowHelpers]::BringToFront($Handle)
+    [UswWindowHelpers]::BringToFront($Handle)
 }

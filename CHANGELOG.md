@@ -11,3 +11,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - General project setup (repository and files like `README.md`, `CHANGELOG.md` etc.)
+- All functionality and files.
