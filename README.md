@@ -1,0 +1,1 @@
+# chocolatey-focuswindow.extension
