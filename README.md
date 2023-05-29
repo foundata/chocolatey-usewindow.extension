@@ -34,9 +34,9 @@ Import-Module "${env:ChocolateyInstall}\extensions\chocolatey-usewindow\*.psm1"
 # get a list of all functions
 Get-Command -Module 'chocolatey-usewindow.extension'
 
-# get help for a specific function
-Get-Help Find-WindowHandle
-Get-Help Use-Window
+# get help and examples for a specific function
+Get-Help Use-Window -Detailed
+Get-Help Find-WindowHandle -Detailed
 
 # focus the first window that contains the name 'foo'.
 Use-Window foo

@@ -4,7 +4,7 @@
     using System.Runtime.InteropServices;
     using System.Text;
 
-    public static class UswWindowHelpers
+    public static class UseWindowHelpers
     {
         [DllImport("user32.dll")]
         [return: MarshalAs(UnmanagedType.Bool)]
@@ -28,7 +28,7 @@
         [StructLayout(LayoutKind.Sequential)]
         private struct RECT
         {
-            public int Left, Top, Right, Bottoom;
+            public int Left, Top, Right, Bottom;
         }
 
         public static bool WindowExists(IntPtr handle)
