@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>chocolatey-focuswindow.extension</id>
+    <version>0.0.1</version>
+    <packageSourceUrl>https://github.com/foundata/chocolatey-focuswindow.extension/</packageSourceUrl>
+    <owners>foundata</owners>
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>Chocolatey Focus-Window extension</title>
+    <authors>foundata</authors>
+    <projectUrl>https://github.com/foundata/chocolatey-focuswindow.extension/</projectUrl>
+    <copyright>
+      Copyright (c) 2018 Grégoire Geis (https://github.com/71/Focus-Window/)
+      Copyright (c) 2023 foundata GmbH (https://github.com/foundata/chocolatey-focuswindow.extension)
+    </copyright>
+    <licenseUrl>https://github.com/foundata/chocolatey-focuswindow.extension/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/foundata/chocolatey-focuswindow.extension/</projectSourceUrl>
+    <docsUrl>https://github.com/foundata/chocolatey-focuswindow.extension/blob/main/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/foundata/chocolatey-focuswindow.extension/issues</bugTrackerUrl>
+    <tags>chocolatey-focuswindow.extension focus windows non-silent</tags>
+    <summary>
+      Helper functions for querying and switching between windows.
+    </summary>
+    <description><![CDATA[
+A [Chocolatey extension](https://docs.chocolatey.org/en-us/features/extensions) providing helper functions for querying and switching between windows. These functions may be used in Chocolatey install and uninstall scripts by declaring this package a dependency in your package's `.nuspec`.
+    ]]></description>
+  </metadata>
+  <files>
+    <file src="extensions\**" target="extensions" />
+  </files>
+</package>
