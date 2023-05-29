@@ -11,8 +11,10 @@
     <title>Chocolatey Focus-Window extension</title>
     <authors>foundata</authors>
     <projectUrl>https://github.com/foundata/chocolatey-focuswindow.extension/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/foundata/chocolatey-focuswindow.extension/main/icon/window.svg</iconUrl>
     <copyright>
       Copyright (c) 2018 Grégoire Geis (https://github.com/71/Focus-Window/)
+      Copyright (c) 2022 Refactoring UI Inc. (https://github.com/tailwindlabs/heroicons/blob/master/optimized/24/outline/window.svg)
       Copyright (c) 2023 foundata GmbH (https://github.com/foundata/chocolatey-focuswindow.extension)
     </copyright>
     <licenseUrl>https://github.com/foundata/chocolatey-focuswindow.extension/blob/main/LICENSE</licenseUrl>
