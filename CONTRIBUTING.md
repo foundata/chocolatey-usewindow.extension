@@ -1,0 +1,34 @@
+# Contributing
+
+Thank you for your interest in contributing. This file provides an overview of the contribution workflow. Summary:
+
+* Use Issues if you want to report a problem or want to see a feature.
+* Use the Chocolatey Community for discussions.
+* Create a pull requests (PR) to submit code.
+
+
+## Issues
+
+If you spot a problem, have an idea or a feature request, [search if an issue already exists](https://github.com/foundata/chocolatey-usewindow.extension/issues). If a related issue doesn't exist, you can simply open a new issue.
+
+As a general rule, we don't assign issues to anyone. If you find an issue to work on, you are welcome to open a pull request (PR) with a fix or feature. So if there is an existing issue you are interested in, just work on it. You might leave a comment there to inform others that there is work going on.
+
+
+## Discussions
+
+Please use the discussion feature at the [package's Chocolatey Community page](https://community.chocolatey.org/packages/chocolatey-usewindow.extension) for general questions and discussions about the package.
+
+
+## Pull Requests (PRs)
+
+Make sure you read [`DEVELOPMENT.md`](./DEVELOPMENT.md), especially the [encoding section](./DEVELOPMENT.md#encoding). Make sure your PR:
+
+1. is working / fix the problem / introduce a sane new feature.
+2. contains a proper commit message with a description of the change and reasoning.
+3. bonus: referene an issue (if any; PRs without an related issue are still welcome).
+
+If you do not know how to open a PR, there is plenty of useful information around. Github is also providing quite good documentation:
+
+* [Forking a repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository) so that you can make your changes without affecting the original project until we merge them.
+* [Branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches#working-with-branches)
+* [Pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)
