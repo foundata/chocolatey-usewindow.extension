@@ -19,16 +19,16 @@
             Use-Window'^powershell$'
     #>
     Param(
-        [ValidateScript({
-            if ( (Find-WindowHandle $PSItem) -ne 0 ) {
-                $true
-            } else {
-                throw "Cannot find window handle for query '$PSItem'."
-            }
-        })]
         [Parameter(Mandatory = $True,
                    ValueFromPipeline = $True,
                    HelpMessage = 'A window title query that will be resolved using "Find-WindowHandle".')]
+        [ValidateScript({
+            if ( (Find-WindowHandle $PSItem) -eq 0 ) {
+                Throw "Use-Window: Cannot find window handle for query '${PSItem}'."
+            } else {
+                $True
+            }
+        })]
         [String]$Query
     )
 

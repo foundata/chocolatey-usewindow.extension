@@ -22,7 +22,7 @@
     <projectSourceUrl>https://github.com/foundata/chocolatey-usewindow.extension/</projectSourceUrl>
     <docsUrl>https://github.com/foundata/chocolatey-usewindow.extension/blob/main/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/foundata/chocolatey-usewindow.extension/issues</bugTrackerUrl>
-    <tags>chocolatey-usewindow.extension focus window non-silent</tags>
+    <tags>chocolatey-usewindow.extension focus window non-silent user32.dll</tags>
     <summary>
       Helper functions for querying and switching between windows.
     </summary>

@@ -1,4 +1,4 @@
-# Security Policy
+# Security policy
 
 ## Reporting a vulnerability
 
@@ -11,6 +11,6 @@ Please make sure your report contains information about
 
 * on how to reproduce the issue.
 * a fix (if any) which's code is compatible to the project's [license](./LICENSE).
-* attribution (Name? Email? Any URL to link?) or if you want to stay anonymous.
+* attribution (Name? Email? Any URL to mention?) or if you want to stay anonymous.
 
-Please note that we do not pay any bug bounties. But you can expect a big thank you as well as attribution in the release notes of the version shipping a fix.
+Beside our thanks, you can expect attribution in the release notes of the version shipping a fix if your report was valid. Please note that we do not pay any bug bounties.

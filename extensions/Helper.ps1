@@ -38,11 +38,11 @@
             return GetWindowRect(handle, out r);
         }
 
-
         private delegate bool EnumDesktopWindowsDelegate(IntPtr hWnd, int lParam);
 
         [DllImport("user32.dll")]
         private static extern bool EnumDesktopWindows(IntPtr hDesktop, EnumDesktopWindowsDelegate lpfn, IntPtr lParam);
+
         [DllImport("user32.dll")]
         private static extern int GetWindowText(IntPtr hWnd, StringBuilder lpWindowText, int nMaxCount);
 
