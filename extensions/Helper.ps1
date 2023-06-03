@@ -1,4 +1,4 @@
-﻿Add-Type -Language CSharp -TypeDefinition @"
+﻿Add-Type -Language 'CSharp' -ReferencedAssemblies @('System', 'System.Runtime.InteropServices') -TypeDefinition @"
     using System;
     using System.Collections.Generic;
     using System.Runtime.InteropServices;
