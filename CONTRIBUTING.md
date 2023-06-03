@@ -25,9 +25,9 @@ Make sure you read [`DEVELOPMENT.md`](./DEVELOPMENT.md), especially the [encodin
 
 1. is working / fix the problem / introduce a sane new feature.
 2. contains a proper commit message with a description of the change and reasoning.
-3. bonus: referene an issue (if any; PRs without an related issue are still welcome).
+3. bonus: reference an issue (if any; PRs without an related issue are still welcome).
 
-If you do not know how to open a PR, there is plenty of useful information around. Github is also providing quite good documentation:
+If you do not know how to open a PR, there is plenty of useful information around on the web. Github is also providing quite good documentation:
 
 * [Forking a repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository) so that you can make your changes without affecting the original project until we merge them.
 * [Branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches#working-with-branches)

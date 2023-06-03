@@ -38,16 +38,16 @@ Get-Command -Module 'chocolatey-usewindow.extension'
 Get-Help Use-Window -Detailed
 Get-Help Find-WindowHandle -Detailed
 
-# focus the first window that contains the name 'foo'.
-Use-Window foo
+# bring the first window that contains the name 'foo' to the front and focus it
+Use-Window 'foo'
 
-# focus the first window that equals the name 'foo'.
+# bring the first window that equals the name 'foo' to the front and focus it
 Use-Window '^foo$'
 
-# focus the window with the handle 101010, if it exists.
+# bring the first window with the handle 101010, if it exist, to the front and focus it.
 Use-Window 101010
 
-# focus the window with the handle 202020, if it exists.
+# focus the window with the handle 202020, if it exists, to the front and focus it.
 Use-Window 'foo bar (202020)'
 ```
 
