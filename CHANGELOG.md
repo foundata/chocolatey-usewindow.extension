@@ -8,7 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Nothing worth mentioning yet.
+
+
+## [1.0.0] - 2023-06-03
+
 ### Added
 
-- General project setup (repository and files like `README.md`, `CHANGELOG.md` etc.)
 - All functionality and files.
+
+
+[unreleased]: https://github.com/foundata/chocolatey-usewindow.extension/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/foundata/chocolatey-usewindow.extension/releases/tag/v1.0.0

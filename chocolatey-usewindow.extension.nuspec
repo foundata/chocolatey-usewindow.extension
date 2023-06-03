@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>chocolatey-usewindow.extension</id>
-    <version>0.0.1</version>
+    <version>1.0.0</version>
     <packageSourceUrl>https://github.com/foundata/chocolatey-usewindow.extension/</packageSourceUrl>
     <owners>foundata</owners>
     <!-- == SOFTWARE SPECIFIC SECTION == -->
