@@ -11,7 +11,7 @@
     <title>Chocolatey Use-Window extension (helper to focus a window)</title>
     <authors>foundata</authors>
     <projectUrl>https://github.com/foundata/chocolatey-usewindow.extension/</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/foundata/chocolatey-usewindow.extension/main/icon/window.svg</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/foundata/chocolatey-usewindow.extension/main/assets/images/window.svg</iconUrl>
     <copyright>
       Copyright (c) 2018 Grégoire Geis (https://github.com/71/Focus-Window/)
       Copyright (c) 2022 Refactoring UI Inc. (https://github.com/tailwindlabs/heroicons/blob/master/optimized/24/outline/window.svg)
