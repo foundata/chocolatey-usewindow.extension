@@ -41,7 +41,12 @@ Nothing special or automated yet. For the time being, try *at least*:
    git push origin :refs/tags/v<version> # delete the old tag remotely
    ```
    This is *only* possible if the package was not already [pushed](https://docs.chocolatey.org/en-us/create/commands/push) to the community package feed. Use a new patch version number otherwise.
-5. Compile the `.nupkg` and [Push](https://docs.chocolatey.org/en-us/create/commands/push) it to the community package feed.
+5. [Pack](https://docs.chocolatey.org/en-us/create/commands/pack) the `.nupkg` and [push](https://docs.chocolatey.org/en-us/create/commands/push) it [to the community package feed](https://docs.chocolatey.org/en-us/create/create-packages#push-your-package):
+   ```console
+   choco pack
+   choco apikey add -s "https://push.chocolatey.org/" -k="..."
+   choco push usewindow.extension.<version>.nupkg --source "https://push.chocolatey.org/"
+   ```
 
 
 ## Miscellaneous
