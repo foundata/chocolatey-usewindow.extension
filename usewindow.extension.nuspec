@@ -3,12 +3,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
-    <id>chocolatey-usewindow.extension</id>
+    <id>usewindow.extension</id>
     <version>1.0.0</version>
     <packageSourceUrl>https://github.com/foundata/chocolatey-usewindow.extension/</packageSourceUrl>
     <owners>foundata</owners>
     <!-- == SOFTWARE SPECIFIC SECTION == -->
-    <title>Chocolatey Use-Window extension (helper to focus a window)</title>
+    <title>Use-Window extension (helper to focus a window)</title>
     <authors>foundata</authors>
     <projectUrl>https://github.com/foundata/chocolatey-usewindow.extension/</projectUrl>
     <iconUrl>https://rawcdn.githack.com/foundata/chocolatey-usewindow.extension/main/assets/images/window.svg</iconUrl>
@@ -22,12 +22,12 @@
     <projectSourceUrl>https://github.com/foundata/chocolatey-usewindow.extension/</projectSourceUrl>
     <docsUrl>https://github.com/foundata/chocolatey-usewindow.extension/blob/main/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/foundata/chocolatey-usewindow.extension/issues</bugTrackerUrl>
-    <tags>chocolatey-usewindow.extension focus window non-silent user32.dll</tags>
+    <tags>usewindow.extension focus window non-silent user32.dll</tags>
     <summary>
       Helper functions for querying and switching between windows.
     </summary>
     <description><![CDATA[
-A [Chocolatey extension](https://docs.chocolatey.org/en-us/features/extensions) providing helper functions for querying and focusing windows. These functions may be used in Chocolatey install and uninstall scripts by declaring this package a dependency in your package's `.nuspec`.
+An unofficial [Chocolatey extension](https://docs.chocolatey.org/en-us/features/extensions) providing helper functions for querying and focusing windows. These functions may be used in Chocolatey install and uninstall scripts by declaring this package a dependency in your package's `.nuspec`.
 
 The most important function is `Use-Window`, which is able to focus a window and bring it to the front. A script can easily switch between windows this way.
     ]]></description>

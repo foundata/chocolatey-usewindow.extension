@@ -16,7 +16,7 @@ As a general rule, we don't assign issues to anyone. If you find an issue to wor
 
 ## Discussions
 
-Please use the discussion feature at the [package's Chocolatey Community page](https://community.chocolatey.org/packages/chocolatey-usewindow.extension) for general questions and discussions about the package.
+Please use the discussion feature at the [package's Chocolatey Community page](https://community.chocolatey.org/packages/usewindow.extension) for general questions and discussions about the package.
 
 
 ## Pull Requests (PRs)
