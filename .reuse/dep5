@@ -26,7 +26,6 @@ Comment: https://github.com/tailwindlabs/heroicons/blob/master/optimized/24/outl
 Files:
     extensions/Find-WindowHandle.ps1
     extensions/Helper.ps1
-Copyright:
-    2018 Grégoire Geis <https://github.com/71/Focus-Window/>
+Copyright: 2018 Grégoire Geis <https://github.com/71/Focus-Window/>
 License: MIT
 Comment: Slightly adapted for this project by foundata GmbH <https://foundata.com>

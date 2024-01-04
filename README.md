@@ -59,8 +59,8 @@ But keep in mind that functions of Chocolatey extension may only work correctly 
 ## Licensing, copyright
 
 <!--REUSE-IgnoreStart-->
-Copyright (c) 2018 Grégoire Geis (https://github.com/71/Focus-Window/)
-Copyright (c) 2022 Refactoring UI Inc. (https://github.com/tailwindlabs/heroicons/blob/master/optimized/24/outline/window.svg)
+Copyright (c) 2018 Grégoire Geis (https://github.com/71/Focus-Window/)<br>
+Copyright (c) 2022 Refactoring UI Inc. (https://github.com/tailwindlabs/heroicons/blob/master/optimized/24/outline/window.svg)<br>
 Copyright (c) 2023, 2024 foundata GmbH (https://foundata.com)
 
 This project is licensed under the MIT License (SPDX-License-Identifier: `MIT`), see [`LICENSES/MIT.txt`](LICENSES/MIT.txt) for the full text.
