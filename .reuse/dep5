@@ -1,0 +1,30 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Use-Window extension for Chocolatey (helper to focus a window) (usewindow.extension)
+Upstream-Contact: foundata GmbH <https://foundata.com>
+Source: https://github.com/foundata/chocolatey-usewindow.extension
+Disclaimer: This project may include calls to Application Programming Interfaces
+ ("API calls"), as well as their respective specifications and code that
+ allows software to communicate with other software. API calls to products
+ or services developed outside of this project are not licensed under the
+ licensing or usage terms that govern this project. Any use of such API
+ calls and related external products is subject to applicable additional
+ agreements with their respective provider and does not alter, expand or
+ supersede any terms of these additional agreements.
+
+
+Files: *
+Copyright: foundata GmbH <https://foundata.com>
+License: MIT
+
+
+Files: assets/images/window.svg
+Copyright: 2022 Refactoring UI Inc.
+License: MIT
+Comment: https://github.com/tailwindlabs/heroicons/blob/master/optimized/24/outline/window.svg
+
+
+Files: extensions/Find-WindowHandle.ps1
+       extensions/Helper.ps1
+Copyright: 2018 Grégoire Geis <https://github.com/71/Focus-Window/>
+           foundata GmbH <https://foundata.com>
+License: MIT

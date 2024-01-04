@@ -1,4 +1,14 @@
-﻿function Use-Window {
+﻿<#
+.SYNOPSIS
+    Function file.
+
+.NOTES
+    SPDX-License-Identifier: MIT
+    SPDX-FileCopyrightText: foundata GmbH <https://foundata.com>
+#>
+
+
+function Use-Window {
     <#
     .SYNOPSIS
         Focuses the window having the given handle and brings it to the front.

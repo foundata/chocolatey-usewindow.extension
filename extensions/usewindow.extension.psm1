@@ -1,4 +1,14 @@
-﻿$ErrorActionPreference = 'Stop' # stop on all errors
+﻿<#
+.SYNOPSIS
+    PowerShell Module file that ensures all needed functions and resources are
+    available.
+
+.NOTES
+    SPDX-License-Identifier: MIT
+    SPDX-FileCopyrightText: foundata GmbH <https://foundata.com>
+#>
+
+$ErrorActionPreference = 'Stop' # stop on all errors
 
 $scriptRoot = Split-Path $MyInvocation.MyCommand.Definition
 

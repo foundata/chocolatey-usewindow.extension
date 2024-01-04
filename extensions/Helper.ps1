@@ -1,4 +1,16 @@
-﻿Add-Type -Language 'CSharp' -ReferencedAssemblies @('System', 'System.Runtime.InteropServices') -TypeDefinition @"
+﻿﻿<#
+.SYNOPSIS
+    Helper file to provide shared resources for different parts of the
+    extension.
+
+.NOTES
+    SPDX-License-Identifier: MIT
+    SPDX-FileCopyrightText: Copyright (c) 2018 Grégoire Geis (https://github.com/71/Focus-Window/)
+    SPDX-FileContributor: foundata GmbH <https://foundata.com>
+#>
+
+
+Add-Type -Language 'CSharp' -ReferencedAssemblies @('System', 'System.Runtime.InteropServices') -TypeDefinition @"
     using System;
     using System.Collections.Generic;
     using System.Runtime.InteropServices;

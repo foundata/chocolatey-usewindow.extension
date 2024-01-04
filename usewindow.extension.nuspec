@@ -12,12 +12,12 @@
     <authors>foundata</authors>
     <projectUrl>https://github.com/foundata/chocolatey-usewindow.extension/</projectUrl>
     <iconUrl>https://rawcdn.githack.com/foundata/chocolatey-usewindow.extension/main/assets/images/window.svg</iconUrl>
-    <copyright>
-      Copyright (c) 2018 Grégoire Geis (https://github.com/71/Focus-Window/)
-      Copyright (c) 2022 Refactoring UI Inc. (https://github.com/tailwindlabs/heroicons/blob/master/optimized/24/outline/window.svg)
-      Copyright (c) 2023 foundata GmbH (https://github.com/foundata/chocolatey-usewindow.extension)
-    </copyright>
-    <licenseUrl>https://github.com/foundata/chocolatey-usewindow.extension/blob/main/LICENSE</licenseUrl>
+    <copyright><![CDATA[
+Copyright (c) 2023, 2024 foundata GmbH (https://github.com/foundata/chocolatey-usewindow.extension)
+
+The [`.reuse/dep5`](https://github.com/foundata/chocolatey-usewindow.extension/blob/main/.reuse/dep5) file provides detailed licensing and copyright information in a human- and machine-readable format. This includes parts that may be subject to different licensing or usage terms, such as third party components.
+    ]]></copyright>
+    <licenseUrl>https://github.com/foundata/chocolatey-usewindow.extension/blob/main/LICENSES/MIT.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/foundata/chocolatey-usewindow.extension/</projectSourceUrl>
     <docsUrl>https://github.com/foundata/chocolatey-usewindow.extension/blob/main/README.md</docsUrl>
