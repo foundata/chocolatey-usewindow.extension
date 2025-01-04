@@ -1,0 +1,34 @@
+version = 1
+SPDX-PackageName = "Use-Window extension for Chocolatey (helper to focus a window) (usewindow.extension)"
+SPDX-PackageDownloadLocation = "https://github.com/foundata/chocolatey-usewindow.extension"
+SPDX-PackageSupplier = "foundata GmbH <https://foundata.com>"
+SPDX-PackageComment = """
+This project may include calls to Application Programming Interfaces
+("API calls"), as well as their respective specifications and code that
+allows software to communicate with other software. API calls to products
+or services developed outside of this project are not licensed under the
+licensing or usage terms that govern this project. Any use of such API
+calls and related external products is subject to applicable additional
+agreements with their respective provider and does not alter, expand or
+supersede any terms of these additional agreements.
+"""
+
+[[annotations]]
+path = "**"
+precedence = "closest"
+SPDX-FileCopyrightText = "foundata GmbH <https://foundata.com>"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "assets/images/window.svg"
+precedence = "closest"
+SPDX-FileCopyrightText = "2022 Refactoring UI Inc."
+SPDX-License-Identifier = "MIT"
+SPDX-FileComment = "https://github.com/tailwindlabs/heroicons/blob/master/optimized/24/outline/window.svg"
+
+[[annotations]]
+path = ["extensions/Find-WindowHandle.ps1", "extensions/Helper.ps1"]
+precedence = "closest"
+SPDX-FileCopyrightText = "2018 Grégoire Geis <https://github.com/71/Focus-Window/>"
+SPDX-License-Identifier = "MIT"
+SPDX-FileComment = "Slightly adapted for this project by foundata GmbH <https://foundata.com>"
