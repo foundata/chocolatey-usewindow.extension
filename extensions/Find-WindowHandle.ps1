@@ -4,8 +4,8 @@
 
 .NOTES
     SPDX-License-Identifier: MIT
-    SPDX-FileCopyrightText: Copyright (c) 2018 Grégoire Geis <https://github.com/71/Focus-Window/>
-    SPDX-FileContributor: foundata GmbH <https://foundata.com>
+    SPDX-FileCopyrightText: Copyright (c) 2018 Grégoire Geis (https://github.com/71/Focus-Window/)
+    SPDX-FileContributor: foundata GmbH (https://foundata.com)
 #>
 
 

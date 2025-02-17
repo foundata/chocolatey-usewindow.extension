@@ -4,7 +4,7 @@
 
 .NOTES
     SPDX-License-Identifier: MIT
-    SPDX-FileCopyrightText: foundata GmbH <https://foundata.com>
+    SPDX-FileCopyrightText: foundata GmbH (https://foundata.com)
 #>
 
 
